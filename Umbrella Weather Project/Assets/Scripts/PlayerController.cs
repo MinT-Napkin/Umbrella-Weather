@@ -22,6 +22,6 @@ public class PlayerController : MonoBehaviour
             moveVelocity = walkSpeed;
         }
 
-        GetComponent<Rigidbody2D>().velocity = new Vector2 (moveVelocity, GetComponent<Rigidbody2D> ().velocity.y);
+         GetComponent<Rigidbody2D>().velocity = new Vector2 (moveVelocity, GetComponent<Rigidbody2D> ().velocity.y);
     }
 }
