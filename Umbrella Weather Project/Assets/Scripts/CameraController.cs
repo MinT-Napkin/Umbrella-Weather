@@ -11,7 +11,7 @@ public class CameraController : MonoBehaviour
     public float smoothFactor;
 
     // Update is called once per frame
-    private void FixedUpdate()
+    private void LateUpdate()
     {
         Follow();
     }
