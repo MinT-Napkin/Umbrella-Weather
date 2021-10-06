@@ -19,14 +19,12 @@ public class Controller2D : RaycastController {
 		collisions.faceDir = 1;
 
 	}
-
 	public void Move(Vector2 moveAmount, bool standingOnPlatform) {
 		Move (moveAmount, Vector2.zero, standingOnPlatform);
 	}
 
 	public void Move(Vector2 moveAmount, Vector2 input, bool standingOnPlatform = false) {
 		UpdateRaycastOrigins ();
-
 		collisions.Reset ();
 		collisions.moveAmountOld = moveAmount;
 		playerInput = input;
