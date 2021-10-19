@@ -26,7 +26,11 @@ public class PlayerMovement : MonoBehaviour {
 	public float wallStickTime = .25f;
 	float timeToWallUnstick;
 
-	float gravity;
+	private float gravity;
+
+	// stuff i changed
+	public Umbrella umbrella;
+
 	float maxJumpVelocity;
 	float minJumpVelocity;
 	public Vector3 velocity;
@@ -40,6 +44,9 @@ public class PlayerMovement : MonoBehaviour {
 	public Vector2 directionalInput;
 	bool wallSliding;
 	int wallDirX;
+	
+	// stuff i changed
+	private const float MAX_FALL_OPEN = -3f;
 
 	void Start() {
 		controller = GetComponent<Controller2D> ();
@@ -138,7 +145,38 @@ public class PlayerMovement : MonoBehaviour {
 	void CalculateVelocity() {
 		float targetVelocityX = directionalInput.x * moveSpeed;
 		velocity.x = Mathf.SmoothDamp (velocity.x, targetVelocityX, ref velocityXSmoothing, (controller.collisions.below)?accelerationTimeGrounded:accelerationTimeAirborne);
-		velocity.y += gravity * Time.deltaTime;
+		// CalculateYVelocityAcc(); // velocity.y += gravity * Time.deltaTime;
+		if (umbrella)
+		{
+			CalculateYVelocityVel();
+		}
+		else
+		{
+			velocity.y += gravity * Time.deltaTime;
+		}
+	}
+
+	/* This function is used to calculate the player's Y-axis velocity.
+     * If the player's umbrella is open, it lowers the effect of gravity
+     * by reducing the player's maximum falling velocity
+     */ 
+	void CalculateYVelocityVel()
+	{
+		if (umbrella.UmbrellaOpen) // if the player is falling and not on the ground ...
+		{
+			if (velocity.y < MAX_FALL_OPEN)
+			{
+				velocity.y = MAX_FALL_OPEN;
+			}
+			else
+			{
+				velocity.y += gravity * Time.deltaTime;
+			}
+		}
+		else
+		{
+			velocity.y += gravity * Time.deltaTime;
+		}
 	}
 	
 	// Controls the animation variables, see animator tab for animation speed and such
@@ -177,5 +215,24 @@ public class PlayerMovement : MonoBehaviour {
 		
 		animPos.y = yPos; // records previous movement
 	}
-
+	
+	/* THIS FUNCTION IS NOT CURRENTLY BEING USED. JUST KEEPING IT FOR A
+     * BIT IN CASE IT BECOMES USEFUL.
+     *
+     * This function is used to calculate the player's Y-axis velocity.
+     * If the player's umbrella is open, it lowers the effect of gravity
+     * by reducing the acceleration.
+     */ 
+	void CalculateYVelocityAcc()
+	{
+		if (velocity.y < 0 && !controller.collisions.below) // if the player is falling and not on the ground ...
+		{
+			velocity.y += umbrella.GravityMultiplier * gravity * Time.deltaTime;
+		}
+		else
+		{
+			velocity.y += gravity * Time.deltaTime;
+		}
+	}
+	
 }
