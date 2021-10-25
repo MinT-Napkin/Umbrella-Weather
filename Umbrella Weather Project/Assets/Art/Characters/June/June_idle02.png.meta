@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: 5ea4733d854ef0a4e96df07e50136cef
+guid: 50895affec33710448fcea1683c2ad24
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5045841020500383753
-    second: June_idle01_0
+      213: -3164820596410888250
+    second: June_idle02_0
   - first:
-      213: -3720351340674273284
-    second: June_idle01_1
+      213: 6938014710062200432
+    second: June_idle02_1
   - first:
-      213: 5209368064859233613
-    second: June_idle01_2
+      213: -1305012454573105725
+    second: June_idle02_2
   - first:
-      213: 4654719599871612437
-    second: June_idle01_3
-  - first:
-      213: 4079956981014753849
-    second: June_idle01_4
+      213: 4279803526278699867
+    second: June_idle02_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -47,7 +44,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -80,10 +77,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -92,82 +89,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 1024
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Lumin
-    maxTextureSize: 1024
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 1024
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: tvOS
-    maxTextureSize: 1024
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 1024
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 1024
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -178,7 +103,49 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: June_idle01_0
+      name: June_idle02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 863
+        width: 520
+        height: 863
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfc61d7f6c4414d0800000000000000
+      internalID: -3164820596410888250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: June_idle02_1
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 863
+        width: 520
+        height: 863
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07631bf9e97c84060800000000000000
+      internalID: 6938014710062200432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: June_idle02_2
       rect:
         serializedVersion: 2
         x: 0
@@ -186,20 +153,20 @@ TextureImporter:
         width: 520
         height: 863
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90815049cad660640800000000000000
-      internalID: 5045841020500383753
+      spriteID: 3cd95b9361aa3ede0800000000000000
+      internalID: -1305012454573105725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: June_idle01_1
+      name: June_idle02_3
       rect:
         serializedVersion: 2
         x: 520
@@ -207,77 +174,14 @@ TextureImporter:
         width: 520
         height: 863
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cff267bba28ae5cc0800000000000000
-      internalID: -3720351340674273284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: June_idle01_2
-      rect:
-        serializedVersion: 2
-        x: 1040
-        y: 0
-        width: 520
-        height: 863
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4dd23297a46b4840800000000000000
-      internalID: 5209368064859233613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: June_idle01_3
-      rect:
-        serializedVersion: 2
-        x: 1560
-        y: 0
-        width: 520
-        height: 863
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 516556770d2e89040800000000000000
-      internalID: 4654719599871612437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: June_idle01_4
-      rect:
-        serializedVersion: 2
-        x: 2080
-        y: 0
-        width: 520
-        height: 863
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9327248f14bee9830800000000000000
-      internalID: 4079956981014753849
+      spriteID: b5b5e4cb1aae46b30800000000000000
+      internalID: 4279803526278699867
       vertices: []
       indices: 
       edges: []
