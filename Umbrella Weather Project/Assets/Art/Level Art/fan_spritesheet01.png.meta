@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: 50895affec33710448fcea1683c2ad24
+guid: 69f862a61eec7b44db0516e3e3af1ec9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3164820596410888250
-    second: June_idle02_0
+      213: 1106595823757555784
+    second: fan_spritesheet01_0
   - first:
-      213: 6938014710062200432
-    second: June_idle02_1
+      213: -225486611411883177
+    second: fan_spritesheet01_1
   - first:
-      213: -1305012454573105725
-    second: June_idle02_2
+      213: -6124611523312482593
+    second: fan_spritesheet01_2
   - first:
-      213: 4279803526278699867
-    second: June_idle02_3
+      213: -7854006144780345764
+    second: fan_spritesheet01_3
+  - first:
+      213: -2066471970268058057
+    second: fan_spritesheet01_4
+  - first:
+      213: 8265115915493410106
+    second: fan_spritesheet01_5
+  - first:
+      213: -3509382671923861090
+    second: fan_spritesheet01_6
+  - first:
+      213: 8297728964321353464
+    second: fan_spritesheet01_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -58,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 624
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: June_idle02_0
+      name: fan_spritesheet01_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 863
-        width: 520
-        height: 863
+        y: 724
+        width: 375
+        height: 362
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,20 +129,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cfc61d7f6c4414d0800000000000000
-      internalID: -3164820596410888250
+      spriteID: 848fff8e90b6b5f00800000000000000
+      internalID: 1106595823757555784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: June_idle02_1
+      name: fan_spritesheet01_1
       rect:
         serializedVersion: 2
-        x: 520
-        y: 863
-        width: 520
-        height: 863
+        x: 375
+        y: 724
+        width: 375
+        height: 362
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +150,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07631bf9e97c84060800000000000000
-      internalID: 6938014710062200432
+      spriteID: 75b20312f19eedcf0800000000000000
+      internalID: -225486611411883177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: June_idle02_2
+      name: fan_spritesheet01_2
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 724
+        width: 375
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd602b5e442010ba0800000000000000
+      internalID: -6124611523312482593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fan_spritesheet01_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 375
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ed1ac0607f00390800000000000000
+      internalID: -7854006144780345764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fan_spritesheet01_4
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 362
+        width: 375
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73eeed111ba6253e0800000000000000
+      internalID: -2066471970268058057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fan_spritesheet01_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 362
+        width: 375
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35896a722793b270800000000000000
+      internalID: 8265115915493410106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fan_spritesheet01_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 520
-        height: 863
+        width: 375
+        height: 362
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cd95b9361aa3ede0800000000000000
-      internalID: -1305012454573105725
+      spriteID: e99211bad0b2c4fc0800000000000000
+      internalID: -3509382671923861090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: June_idle02_3
+      name: fan_spritesheet01_7
       rect:
         serializedVersion: 2
-        x: 520
+        x: 375
         y: 0
-        width: 520
-        height: 863
+        width: 375
+        height: 362
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,8 +276,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5b5e4cb1aae46b30800000000000000
-      internalID: 4279803526278699867
+      spriteID: 8fe18d0a784772370800000000000000
+      internalID: 8297728964321353464
       vertices: []
       indices: 
       edges: []
