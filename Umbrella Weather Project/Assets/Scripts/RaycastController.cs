@@ -9,6 +9,10 @@ using System.Collections;
 public class RaycastController : MonoBehaviour {
 
 	public LayerMask collisionMask;
+	public LayerMask interactMask;  //layer that can be interacted with by player
+
+	[HideInInspector]
+	public ContactFilter2D interactFilter;
 	
 	public const float skinWidth = .015f;
 	const float dstBetweenRays = .25f; //make smaller for smaller sizes
@@ -32,6 +36,8 @@ public class RaycastController : MonoBehaviour {
 
 	public virtual void Start() {
 		CalculateRaySpacing ();
+		interactFilter = new ContactFilter2D();
+		interactFilter.SetLayerMask(interactMask);
 	}
 
 	public void UpdateRaycastOrigins() {
