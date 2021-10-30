@@ -9,6 +9,7 @@ using System.Collections;
 public class RaycastController : MonoBehaviour {
 
 	public LayerMask collisionMask;
+	[HideInInspector]
 	public LayerMask interactMask;  //layer that can be interacted with by player
 
 	[HideInInspector]
@@ -36,6 +37,7 @@ public class RaycastController : MonoBehaviour {
 
 	public virtual void Start() {
 		CalculateRaySpacing ();
+		interactMask = LayerMask.GetMask("Interactable");
 		interactFilter = new ContactFilter2D();
 		interactFilter.SetLayerMask(interactMask);
 	}
