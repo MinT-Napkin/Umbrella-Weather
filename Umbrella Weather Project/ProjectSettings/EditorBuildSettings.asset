@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Testing Scenes/Bryan.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Playable Scenes/Menu.unity
+    guid: b2fd759489ab96043b7aa03ce3cd76a1
   m_configObjects: {}
