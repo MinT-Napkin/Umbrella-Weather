@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Playable Scenes/Menu.unity
     guid: b2fd759489ab96043b7aa03ce3cd76a1
   - enabled: 1
-    path: Assets/Scenes/Testing Scenes/Minh.unity
-    guid: 9ece0269a1b6d0141b231a1237f64a98
-  - enabled: 1
     path: Assets/Scenes/Testing Scenes/Phish-Lv1.unity
     guid: 179fb0ba133e2c248925855f9b39d6e4
   m_configObjects: {}
