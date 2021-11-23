@@ -13,10 +13,12 @@ using UnityEngine;
 public class SadPerson : Interactable
 {
 
+    public Animator sadPersonAnim;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        sadPersonAnim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -27,6 +29,7 @@ public class SadPerson : Interactable
 
     //Called by PlayerInput.cs when interact key pressed
     public override void ButtonAction() {
+        sadPersonAnim.SetBool("umbrellaGiven", true);
         Debug.Log("I'm happy!");
     }
 }
